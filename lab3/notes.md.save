@@ -1,0 +1,8 @@
+Phase 1:
+for every active node, queue for push or relabel
+
+Phase 2:
+all threads send push and relabel candidates to main
+main does the pushes, sends new active nodes to threads
+
+
